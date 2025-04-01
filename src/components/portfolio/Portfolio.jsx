@@ -5,18 +5,19 @@ import { motion, useInView, useScroll, useTransform } from "motion/react";
 const items = [
   {
     id: 1,
+    img: "/p2.jpg",
+    title: "Full Stack Content Generator",
+    desc: "Content Generator is a web application that allows you to create content for your youtube channel, twiiter tweets, instagram posts, reddit posts etc.",
+    link: "https://contentgener-production.up.railway.app/",
+  },
+  {
+    id: 2,
     img: "/p1.jpg",
     title: "Full Stack Second Brain",
     desc: "Second Brain is a full-stack web application that allows you to create a second brain. It is a web application that allows you to create a second brain. It is a web application that allows you to create a brain where user can save their important links youtube,twitter links and it displays them in the dashboard.",
     link: " https://f-ll-brain-second.vercel.app/ ",
   },
-  {
-    id: 2,
-    img: "/p2.jpg",
-    title: "Full Stack Content Generator",
-    desc: "Content Generator is a web application that allows you to create content for your youtube channel, twiiter tweets, instagram posts, reddit posts etc.",
-    link: "https://content-gener.onrender.com ",
-  },
+
   {
     id: 3,
     img: "/p3.jpg",
