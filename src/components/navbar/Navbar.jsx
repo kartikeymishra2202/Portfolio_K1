@@ -35,9 +35,9 @@ const Navbar = () => {
 
       {/* Desktop Menu */}
       <div className="desktop-menu">
-        <a href="#Hero3D">Home</a>
+        <a href="#hero">Home</a>
         <a href="#about">About</a>
-        <a href="#portfolio">Works</a>
+        <a href="#projects">Works</a>
       </div>
 
       {/* Mobile Menu Button */}
@@ -47,13 +47,13 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <div className={`mobile-menu ${isOpen ? "open" : ""}`}>
-        <a href="#Hero3D" onClick={toggleMenu}>
+        <a href="#hero" onClick={toggleMenu}>
           Home
         </a>
         <a href="#about" onClick={toggleMenu}>
           About
         </a>
-        <a href="#portfolio" onClick={toggleMenu}>
+        <a href="#projects" onClick={toggleMenu}>
           Works
         </a>
       </div>
